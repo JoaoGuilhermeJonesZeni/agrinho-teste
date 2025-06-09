@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #27ffa5;
+}
+
+.cabecalho {
+  background-color: #198754 !important;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.cabecalho h3 {
+  color: rgb(206, 206, 8);
+}
+
+.alinha {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.img-agro {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.bg-white.p-3.rounded.shadow-sm.text-center,
+.bg-white.p-4.rounded.shadow-sm {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row.align-items-center {
+  align-items: stretch;
+}
+
+/* Adição para alinhar os blocos lado a lado com espaçamento uniforme */
+.card-bloco {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.card-bloco .col-md-5,
+.card-bloco .col-md-7 {
+  flex: 1;
+}
+
+.footer {
+  background-color: #198754;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn-menu {
+  background-color: #145c32;
+  border-radius: 12px;
+  padding: 8px 16px;
+  transition: 0.3s;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.btn-menu:hover {
+  background-color: #0f3f23;
+  color: #f1f1f1;
+  transform: scale(1.05);
+}
